@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="../images/my pic.jpeg" >
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="portfo.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="../images/my pic.jpeg" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Harishringan K</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:harishringan03@gmail.com" class="contact-link">harishringan03@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919344937196" class="contact-link">+91 9344937196</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-09-20">September 20, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Ambattur , Chennai, TamilNadu , India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/harishringan.harish" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/harishringan-k/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/harishringan20/?next=%2F" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p style="text-align: justify;">
+            A dedicated and highly motivated software interested final year student seeking a challenging position in software development where I can apply my programming skills,creativity, and problem-solving abilities to contribute effectively in innovative projects.Eager to gain hands-on experience and further develop my expertise in software development and web technologies.
+          </p>
+
+          
+        </section>
+
+
+        <!--
+          - hobbies
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Hobbies</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                
+                <img src="../speed-internet-technology-background.webp" alt="design icon" width="50" height="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Technologies</h4>
+
+                <p class="service-item-text">
+                  Regularly surfing through internet about new technologies.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="../webdev.png" alt="Web development icon" width="50" height="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Through search engine upgrade myself about web development technologies.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="../MAIN_1.jpg" alt="mobile app icon" width="50" height="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cricket</h4>
+
+                <p class="service-item-text">
+                   Cricket enthusiast , life time ambition is to become a cricket player.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="../travel.jfif" alt="camera icon" width="50" height="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Travelling</h4>
+
+                <p class="service-item-text">
+                  Highly interested in travelling through bike as well as car to a long trip.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+      
+
+
+
+
+
+        
+            <li class="testimonials-item">
+            <li class="hi"><h3 class="h3 testimonials-title">Courses Completed</h3></li>
+              <div class="content-card" data-testimonials-item>
+                
+                <figure class="testimonials-avatar-boxx">
+                  <img src="../skillrack.jpg" alt="sorry" height="50px" width="70px">
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title style="margin-left: 10px;">Programming In C</h4>
+                </figure>
+
+                
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Completed programming in c Certification in SkillRack platform and solved some of the problems in online to upgrade myself. 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-boxx">
+                  <img src="../nptel.jfif" alt="sorry" height="50px" width="70px"  >
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title style="margin-left: 10px;">Programming In Java</h4>
+                </figure>
+
+                
+
+                <div class="testimonials-text" data-testimonials-text >
+                  <p>
+                   Completed java certification in NPTEL and secured 57% and also solved some of the problems in geeks for geeks.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="../avatar-4.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title" style="margin-top: 10px;">Certificates</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://drive.google.com/file/d/151qY6HDPYUVvvWdjA0VbzyRlNcYt1GVT/view?usp=drive_link">
+                <img src="../Technohacks.jpg" alt="client logo" height="140">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://drive.google.com/file/d/1yvnjyO-K1KDteDnr40RMdgDhekZXrJhr/view?usp=drive_link">
+                <img src="../prodigy.jpg" alt="client logo" height="140">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://drive.google.com/file/d/1MiaTmWD7o1jMhAKj0dC-ZxV3Xkg8QSq2/view?usp=drive_link">
+                <img src="../nptel iot.jpg" alt="client logo" height="140">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://drive.google.com/file/d/18OZNPpMkIAqCuIpssat_aongffslzPvM/view?usp=drive_link">
+                <img src="../nptel java.jpg" alt="client logo" height="140">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://drive.google.com/file/d/1eHf57ukpyiA_SIdV_mmHC3oV0mhL1nft/view?usp=drive_link">
+                <img src="../NSIC.jpg" alt="client logo" height="140">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://drive.google.com/file/d/1eH3hnVq0qeleJ8LilEYt6RdL3GOOs9oP/view?usp=drive_link">
+                <img src="../VLSI.jpg" alt="client logo" height="140">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://drive.google.com/file/d/1eAFahSEc4NBxXPknXOCnlVakVYFGni5B/view?usp=drive_link">
+                <img src="../Panimalar.jpg" alt="client logo" height="140">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="https://drive.google.com/drive/folders/14pZygbIZgp3BEZLWnVHy0SaDTBvtGK1O?usp=drive_link">
+                <img src="../NCC_1.jpg" alt="client logo" height="140">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="https://drive.google.com/file/d/1eB9a0fiGCYzC0gawABmOzTowjRovj8iY/view?usp=drive_link">
+                <img src="../kung fu(2).jpg" alt="client logo" height="140">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">S.A. Engineering College</h4>
+
+              <span>2021 — 2025</span>
+
+              <p class="timeline-text">
+                I had completed my Bachelors degree in Electronics and Communication Engineering with 8.3 CGPA.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Sethu Bhaskara Matriculation Higher Secondary School</h4>
+
+              <span>2020 — 2021</span>
+
+              <p class="timeline-text">
+                I completed my SSLC with 80% in computer science department.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Sethu Bhaskara Matriculation Higher Secondary School</h4>
+
+              <span>2018 — 2019</span>
+
+              <p class="timeline-text">
+                I completed my HSC with 73.6%.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">TechnoHacks</h4>
+
+              <span>23-03-2024 to 22-04-2024</span>
+
+              <p class="timeline-text">
+                Attended one month internship on TechnoHacks as a Web Developer and developed 3 projects during the intern and shared the source code on GitHub repository and also posted outlook of the project in the LinkedIn.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Prodigy InfoTech</h4>
+
+              <span>01-04-2024 to 30-04-2024</span>
+
+              <p class="timeline-text">
+                Attended one month intern as a Web Developer at Prodigy InfoTech and enhanced my knowledge by developing various websites using HTML,CSS and Javascript.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming In C</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+                <data value="70">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+                <data value="70">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web-Development</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <a href="https://drive.google.com/file/d/1RVcmgq5Zbkc4orbGkFSdgwDZRAhjr17a/view?usp=drive_link">
+              <button id="CV" >Download CV </button>
+            </a>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item  active" data-filter-item data-category="Interactive Portfolio">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="../portfo.jpg" alt="sorry" loading="lazy" style="height: 150px;">
+                </figure>
+
+                <h3 class="project-title">My Portfolio</h3>
+
+                <p class="project-category">Interactive Portfolio</p>
+                <a href="https://github.com/Harishringan/Stop-Watch-Application">
+                  <button id="but">know more</button>
+                </a>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Front-End Project">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="../front-end.jpg" alt="sorry" loading="lazy" style="height: 150px;">
+                </figure>
+
+                <h3 class="project-title">Hotel Landing Page</h3>
+
+                <p class="project-category">Front-End Project</p>
+                <a href="https://github.com/Harishringan/Hotel-Landing-Page">
+                  <button id="but">know more</button>
+                </a>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Basic Applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="../Sign-up.jpg" alt="sorry" loading="lazy" style="height: 150px;">
+                </figure>
+
+                <h3 class="project-title">Sign-up</h3>
+
+                <p class="project-category">Basic Applications</p>
+                <a href="https://github.com/Harishringan/Sign-Up-Page">
+                  <button id="but">know more</button>
+                </a>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Basic Applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="../calc.jpg" alt="sorry" loading="lazy" style="height: 150px;">
+                </figure>
+
+                <h3 class="project-title">calculator</h3>
+
+                <p class="project-category">Basic Applications</p>
+                <a href="https://github.com/Harishringan/Basic-Calculator">
+                  <button id="but">know more</button>
+                </a>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Basic Applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="../stop-watch.jpg" alt="sorry" loading="lazy" style="height: 150px;">
+                </figure>
+
+                <h3 class="project-title">stop-watch</h3>
+
+                <p class="project-category">Basic Applications</p>
+                <a href="https://github.com/Harishringan/Stop-Watch-Application">
+                <button id="but">know more</button>
+              </a>
+              </a>
+            </li>
+
+            
+            <li class="project-item  active" data-filter-item data-category="Basic Portfolio">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="../PORT.jpg" alt="sorry" loading="lazy" style="height: 150px;">
+                </figure>
+
+                <h3 class="project-title">Portfolio</h3>
+
+                <p class="project-category">Basic Portfolio</p>
+                <a href="https://github.com/Harishringan/test">
+                  <button id="but">know more</button>
+                </a>
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d389.19135833723006!2d80.1598164!3d13.1323433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52630dd2350353%3A0x72014b4ee1a43fda!2s23%2F70%2C%20Palaniappa%20Nagar%2C%20Pudur%2C%20Ambattur%2C%20Chennai%2C%20Tamil%20Nadu%20600053!5e0!3m2!1sen!2sin!4v1688484598342!5m2!1sen!2sin"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" id="text" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" id="emaill" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" id="message" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" onclick="function1()" type="submit" >
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+        
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="portfo.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
