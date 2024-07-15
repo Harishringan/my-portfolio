@@ -1024,9 +1024,10 @@ color: yellow; }
     box-sizing: border-box;
     background-color: white;
     color: black;
-    margin-left: 320px;
+    display: flex;
     border-radius: 8px;
-    padding-left: 12px;
+    padding-left: 9px;
+    padding-top: 3px;
     justify-content: center;
     text-align: center;
     
